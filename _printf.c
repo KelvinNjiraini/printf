@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * _printf - formatted output conversion and print data.
+ * @format: input string.
+ *
+ * Return: number of chars printed.
+ */
+
 void cleanup(va_list args, buffer_t *output);
 int run_printf(const char *format, va_list args, buffer_t *output);
 int _printf(const char *format, ...);
